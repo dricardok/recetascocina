@@ -1,0 +1,85 @@
+/* Estilos de pagina web */
+
+/* Para layout principal en columnas */
+.colmenu {
+  float: left;
+  width: 15%;
+}
+.colcontent {
+  float: left;
+  width: 70%;
+}
+.colright {
+  float: left;
+  width: 15%;
+  background-color: #598729;
+}
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.twocolumn {
+  float: left;
+  width: 50%;
+}
+
+/* Menu vertical */
+/*
+.vertical-menu {
+  width: 200px;
+}
+*/
+.vertical-menu a {
+  display: block;
+  padding: 1px;
+  text-decoration: none; 
+}
+
+/* cambio de imagenes de menu vertical */
+.card {
+    position: relative;
+    display: inline-block;
+}
+.card .img-top {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 99;
+}
+.card:hover .img-top {
+    display: inline;
+}
+
+/* Menu horizontal */
+.horizontal-menu nav li{
+   float:left;
+   width:30%;
+   padding:5px 10px;
+   background: url(../images/menu/barra_inferior.jpg);
+   background-image: url(../images/menu/barra_inferior.jpg);
+   text-align:center;
+   color:#fff;
+}
+.horizontal-menu nav a:hover, a:active, a:link, a:visited {
+    color: #FFF;
+    text-decoration: none;
+}
+
+/* general */
+* {
+  font-family: Verdana, sans-serif;
+}
+
+h2, h3 {
+    color: dodgerblue;
+}
+
+.links {
+    color: blue;
+}
+
+.copyright {
+    text-align: right;
+}
